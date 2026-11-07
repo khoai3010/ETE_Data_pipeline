@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 *.log
+~$*
 
 # Generated submission bundle (rebuild with package_submission.py).
 /submission/
