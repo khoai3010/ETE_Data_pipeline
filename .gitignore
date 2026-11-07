@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.log
+
+# Generated submission bundle (rebuild with package_submission.py).
+/submission/
+
+# Personal Fabric bindings; share the example instead.
+/deliverables/fabric/config.json
+
+# Source datasets stay local; do not publish customer-shaped raw records.
+/deliverables/fabric/prepared/inputs/*.csv
+
+# Local credentials and environments.
+.env
+.env.*
+!.env.example
+.venv/
+.runtime/

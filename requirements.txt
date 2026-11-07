@@ -1,0 +1,4 @@
+# Optional: only needed to build Word documents, figures and submission ZIP.
+# Fabric notebooks use the Spark/Delta runtime already provided by Fabric.
+matplotlib>=3.8,<4
+python-docx>=1.2,<2

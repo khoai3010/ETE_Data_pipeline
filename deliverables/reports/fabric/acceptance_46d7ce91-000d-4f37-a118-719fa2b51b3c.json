@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "run_id": "46d7ce91-000d-4f37-a118-719fa2b51b3c",
+  "engine": "Fabric PySpark",
+  "spark_version": "4.1.1.5.5.20260929.238183312",
+  "finished_utc": "2026-11-06T05:14:12.634134+00:00",
+  "table_counts": {
+    "silver_sales": 4896,
+    "silver_sales_items": 9850,
+    "silver_sales_quarantine": 104,
+    "silver_exchange_rate": 24,
+    "silver_exchange_rate_quarantine": 0,
+    "gold_dim_date": 731,
+    "gold_dim_customer": 4896,
+    "gold_dim_location": 4157,
+    "gold_dim_payment_method": 3,
+    "gold_dim_product": 4025,
+    "gold_fact_orders": 4896,
+    "gold_fact_order_items": 9850,
+    "gold_monthly_revenue_category": 120,
+    "gold_monthly_completed_revenue_category": 120,
+    "gold_promotion_by_location": 2425
+  },
+  "eligible_orders": 2669,
+  "completed_orders": 885,
+  "revenue_vnd": "68128580695.610000",
+  "completed_revenue_vnd": "22440017306.840000"
+}

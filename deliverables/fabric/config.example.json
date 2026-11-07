@@ -1,0 +1,10 @@
+{
+  "workspace_url": "PASTE_WORKSPACE_URL_OR_UUID",
+  "lakehouse_url": "PASTE_LAKEHOUSE_URL_OR_UUID",
+  "lakehouse_name": "lh_mindx_final",
+  "table_schema": "dbo",
+  "source_folder": "Source",
+  "bronze_folder": "Bronze",
+  "reports_folder": "Reports",
+  "strict_project_snapshot": true
+}
