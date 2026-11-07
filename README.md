@@ -46,7 +46,7 @@ deliverables/
 
 ## Chạy trên Fabric
 
-1. Lấy hai CSV từ tài nguyên khóa học và đặt vào `deliverables/fabric/prepared/inputs` (dữ liệu thô không được công khai trên GitHub). Upload chúng vào `Files/Source` của Lakehouse `lh_mindx_final`.
+1. Upload hai CSV có sẵn trong `deliverables/fabric/prepared/inputs` vào `Files/Source` của Lakehouse `lh_mindx_final`.
 2. Import bốn notebook trong `deliverables/fabric/prepared`, gắn cùng Lakehouse làm default.
 3. Cấu hình theo [MANUAL_BINDINGS](deliverables/fabric/MANUAL_BINDINGS.md). Pipeline hiện tại trên Fabric đã được tạo; không cần tạo lại nếu vẫn dùng workspace/Lakehouse hiện tại.
 4. Bật High concurrency cho pipeline trong workspace, đặt cùng Session tag `mindx_final` cho bốn Notebook Activity. Chỉ chạy một batch tại một thời điểm.
